@@ -1,0 +1,36 @@
+.visited-list-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f2f;
+  margin: 10px;
+}
+
+.image {
+  width: 250px;
+  height: 150px;
+}
+
+.remove-button-container {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  padding: 15px;
+  align-items: center;
+}
+
+.visited-country-name {
+  font-size: 22px;
+  font-weight: 400;
+  color: #f8fafc;
+}
+
+.remove-button {
+  border-radius: 2px;
+  border: 1px solid #f8fafc;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  background: transparent;
+  color: #ffffff;
+  height: 35px;
+}
